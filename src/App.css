@@ -1,0 +1,116 @@
+
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+
+body {
+  background-color: #1b1b1b;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffba08;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.card h2 {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+}
